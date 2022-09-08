@@ -13,10 +13,20 @@ h1 {
   
 }
 
-img {
-  width: 400px;
+.wrap .list{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-p{
-  
+ul {
+  list-style: none;
+}
+
+.wrap .txt{
+  margin-top: 100px;
+}
+
+img {
+  width: 400px;
 }
