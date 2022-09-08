@@ -3,6 +3,7 @@
 body {
   background-color: rgb(2, 50, 78);
   text-align: center;
+  width: 82vw;
 }
 
 h1 {
@@ -29,8 +30,24 @@ ul {
 
 img {
   width: 400px;
+  border-color: white;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  max-width: 70%;
+  height: auto;
 }
 
 p{
+  color: white;
+}
+
+@media (min-height: 800px) {
+  p{
+    font-size: 30px;
+  }
+}
+
+h2{
   color: white;
 }
