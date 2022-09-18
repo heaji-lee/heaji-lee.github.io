@@ -7,30 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../styles/main.css" />
     <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet" type="text/css">
+    <!--h2 font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <!--h3 font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Bungee+Shade&display=swap" rel="stylesheet">
+    <!--p font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet"> 
+
     <title>HTML !DOCTYPE declaration</title>
 </head>
 <body>
-    <h1>What is the difference between Margin, Border, and Padding?</h1>
-    <div>
-      <p>What is Margin?</p>
-      <ul class="white">
-        An element's <u>margin</u> controls the amount of space between an element's border and surrounding elements. 
-      </ul>
-    </div>
-    <div>
-      <p>What is Border?</p>
-      <ul class="white">The <u>border</u> property sets an element's border. Examples include border-width, border-style, and border-color.</ul>
-    </div>
-    <div>
-      <p>What is Padding?</p>
-      <ul class="white">An element's <u>padding</u> controls the amount of space between the element's content and its border.</ul>
+    <h2>What is the difference between Margin, Border, and Padding?</h2>
+    <div class="box pink-box">
+      <h4 class="box purple-box">PURPLE BOX</h4>
+      <h4 class="box yellow-box">YELLOW BOX</h4>
     </div>
 
-    <h2>The relationship of Border, Border and Padding can be explained as below:</h2>
+    <p>Woah, what the hell is even this? Well let me explain. Margin is essentially the gap between a border and the surrounding elements. The higher value of 
+      a margin the bigger the gap and vice versa. See how the purple
+    box has more gap between the box and the border than the yellow box and is larger than the yellow box? I increased
+    the value of margin and padding for the purple box and decreased the value of margin and padding for the 
+    yellow box. This is how I did it:</p>
+  <img src="../images/margine-and-padding.jpg">
+   
+    <p>If you don't know what a border ss, let pictures explain: </p>
+    <img class = "border1" src="../images/Moo1.jpg">
+    <img class = "border2" src="../images/Moo1.jpg">
+    <p>Here is Moo, a cat that's touching his knees while dreaming about the brunch he had earlier on. Moo on the left has a 
+      solid blue funky border around him whereas Moo on the right has a double round orange border around him. Border
+      property in CSS can manipulate width, style, color, radius, etc. This is how I coded Moo's borders:
+    </p>
+    <img src="../images/border.jpg">
+
+    <h3>Here's a recap of what BORDER, PADDING AND MARGIN are: </h3>
     <img src="margin-padding.png">
-    <h5 class="white">Picture downloaded from https://blog.hubspot.com/website/css-margin-vs-padding</h5>
+    
+    <h5>Picture downloaded from <a href ="https://blog.hubspot.com/website/css-margin-vs-padding">
+      https://blog.hubspot.com/website/css-margin-vs-padding</a>
       
-  
-
 </body>
 </html>

@@ -1,57 +1,90 @@
-
-
 body {
-  background-color: rgb(2, 50, 78);
+  background-color: rgb(197, 195, 128);
   text-align: center;
   width: 82vw;
 }
 
 h1 {
-  color: rgb(255, 255, 255);
-  margin-left: 100px;
-  font-family: Poppins, "Open Sans";
+  text-align: center;
+  font-family: 'Bungee Spice', cursive;
+  font-size: 75px;
+  }
+
+h2{
+  color:rgb(251, 117, 0);
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 45px;
+} 
+
+h3{
+  color:navy;
+  text-align: center;
+  font-family: 'Bungee Hairline', cursive;
   font-size: 50px;
-  
+  font-weight: bold;
+} 
+
+p{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
 }
 
-.wrap .list{
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+.box {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  text-align: center;
+}
+.pink-box{
+  background-color: pink;
+  padding: 10px;
 }
 
-ul {
-  list-style: none;
+.yellow-box {
+  background-color: yellow;
+  color: black;
+  padding: 25px;
+  margin: 10px;
 }
 
-.wrap .txt{
-  margin-top: 100px;
+.purple-box {
+  background-color: purple;
+  color: black;
+  padding: 50px;
+  margin: 80px;
 }
 
 img {
   width: 400px;
-  border-color: white;
-  border-width: 10px;
-  border-style: solid;
-  border-radius: 10px;
+  
+  
   max-width: 70%;
   height: auto;
 }
 
-p{
-  color: white;
+.border1{
+  border-color: blue;
+  border-width: 10px;
+  border-style: groove;
+}
+
+.border2{
+  border-color: orange;
+  border-width: 50px;
+  border-style: double;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 768px){
+  [class*="col-"]{
+    width: 100%;
+  }
 }
 
 @media (min-height: 800px) {
   p{
     font-size: 30px;
   }
-}
-
-h2{
-  color: white;
-}
-
-.white {
-  color: white;
 }
